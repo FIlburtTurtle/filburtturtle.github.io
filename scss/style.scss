@@ -1,0 +1,104 @@
+body{
+	background-image: url('../img/glasses.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.name a{
+	color: #000000;
+}
+
+.name {
+	font-family: "Droid Serif", serif;
+}
+.tagline{
+	margin-top: -20px;
+	font-family: "Open Sans", sans-serif;
+	letter-spacing: 4px;
+	font-size: 18px;
+	color: #66CD00;
+}
+.nameDiv{
+	margin-top: 40px;
+	clear: none;
+}
+
+.navDiv{
+	margin-top: 45px;
+	float: right;
+	clear: none;
+}
+
+.navigation{
+	list-style: none;
+	float: right;
+	display: block;
+}
+.navigation li{
+	font-family: "Open Sans", sans-serif;
+	// background-color: rgba(204, 204, 204 , .2);
+	text-align: right;
+	padding: 20px;
+	width: auto;
+	-webkit-transition:background-color 1s, color .5s;
+    transition:background-color 1s, color .5s;
+    float: left;
+    display: block;
+    margin: 5px;
+}
+.navigation li:hover{
+	background-color: #66CD00;
+	color: #FFFFFF;
+}
+.navigation li:active{
+	background-color: #66CD00;
+	color: #FFFFFF;
+}
+.content p{
+	// background-color: rgba(204, 204, 204 , .2);
+	font-size: 16px;
+}
+.headshot-div{
+	width: 400px;
+	margin-bottom: 30px;
+}
+.headshot{
+	border-radius: 200px;
+	moz-border-radius:200px;
+	webkit-border-radius:200px;
+}
+.project{
+	width: 30%;
+	height: 200px;
+	background-color: #777777;
+}
+
+.description{
+
+}
+
+.project-row{
+	margin-top: 50px !important;
+}
+
+//Ids to show and hide
+
+#about{
+	display: none;
+	height: 100%;
+	margin-top: 30px;
+	font-size: 12px;
+}
+#portfolio{
+	display: none;
+	background-color: rgba(255, 255, 255 , .9);
+}
+#contact{
+	display: none;
+	margin-top: 150px;
+	height: 100%;
+	color: #999999;
+
+}
+

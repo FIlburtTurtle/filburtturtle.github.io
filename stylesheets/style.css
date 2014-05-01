@@ -1,0 +1,123 @@
+/* line 1, ../scss/style.scss */
+body {
+  background-image: url("../img/glasses.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+/* line 8, ../scss/style.scss */
+.name a {
+  color: #000000;
+}
+
+/* line 12, ../scss/style.scss */
+.name {
+  font-family: "Droid Serif", serif;
+}
+
+/* line 15, ../scss/style.scss */
+.tagline {
+  margin-top: -20px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 4px;
+  font-size: 18px;
+  color: #66CD00;
+}
+
+/* line 22, ../scss/style.scss */
+.nameDiv {
+  margin-top: 40px;
+  clear: none;
+}
+
+/* line 27, ../scss/style.scss */
+.navDiv {
+  margin-top: 45px;
+  float: right;
+  clear: none;
+}
+
+/* line 33, ../scss/style.scss */
+.navigation {
+  list-style: none;
+  float: right;
+  display: block;
+}
+
+/* line 38, ../scss/style.scss */
+.navigation li {
+  font-family: "Open Sans", sans-serif;
+  text-align: right;
+  padding: 20px;
+  width: auto;
+  -webkit-transition: background-color 1s, color .5s;
+  transition: background-color 1s, color .5s;
+  float: left;
+  display: block;
+  margin: 5px;
+}
+
+/* line 50, ../scss/style.scss */
+.navigation li:hover {
+  background-color: #66CD00;
+  color: #FFFFFF;
+}
+
+/* line 54, ../scss/style.scss */
+.navigation li:active {
+  background-color: #66CD00;
+  color: #FFFFFF;
+}
+
+/* line 58, ../scss/style.scss */
+.content p {
+  font-size: 16px;
+}
+
+/* line 62, ../scss/style.scss */
+.headshot-div {
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+/* line 66, ../scss/style.scss */
+.headshot {
+  border-radius: 200px;
+  moz-border-radius: 200px;
+  webkit-border-radius: 200px;
+}
+
+/* line 71, ../scss/style.scss */
+.project {
+  width: 30%;
+  height: 200px;
+  background-color: #777777;
+}
+
+/* line 81, ../scss/style.scss */
+.project-row {
+  margin-top: 50px !important;
+}
+
+/* line 87, ../scss/style.scss */
+#about {
+  display: none;
+  height: 100%;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+/* line 93, ../scss/style.scss */
+#portfolio {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 97, ../scss/style.scss */
+#contact {
+  display: none;
+  margin-top: 150px;
+  height: 100%;
+  color: #999999;
+}

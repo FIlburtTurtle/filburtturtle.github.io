@@ -2,7 +2,7 @@ body{
 	background-image: url('../img/glasses.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
 }
 
 .name a{
@@ -13,11 +13,11 @@ body{
 	font-family: "Droid Serif", serif;
 }
 .tagline{
-	margin-top: -20px;
 	font-family: "Open Sans", sans-serif;
 	letter-spacing: 4px;
 	font-size: 18px;
 	color: #66CD00;
+	margin-bottom:-10px;
 }
 .nameDiv{
 	margin-top: 40px;
@@ -58,6 +58,7 @@ body{
 .content p{
 	// background-color: rgba(204, 204, 204 , .2);
 	font-size: 16px;
+	margin-bottom:0px;
 }
 .headshot-div{
 	width: 400px;
@@ -67,6 +68,10 @@ body{
 	border-radius: 200px;
 	moz-border-radius:200px;
 	webkit-border-radius:200px;
+}
+.contact{
+	font-size:12px !important;
+	color:#666;
 }
 .project{
 	width: 30%;

@@ -7796,7 +7796,7 @@ body {
   background-image: url("../img/glasses.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 /* line 8, ../scss/style.scss */
@@ -7811,11 +7811,11 @@ body {
 
 /* line 15, ../scss/style.scss */
 .tagline {
-  margin-top: -20px;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 4px;
   font-size: 18px;
   color: #66CD00;
+  margin-bottom: -10px;
 }
 
 /* line 22, ../scss/style.scss */
@@ -7866,34 +7866,41 @@ body {
 /* line 58, ../scss/style.scss */
 .content p {
   font-size: 16px;
+  margin-bottom: 0px;
 }
 
-/* line 62, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 .headshot-div {
   width: 400px;
   margin-bottom: 30px;
 }
 
-/* line 66, ../scss/style.scss */
+/* line 67, ../scss/style.scss */
 .headshot {
   border-radius: 200px;
   moz-border-radius: 200px;
   webkit-border-radius: 200px;
 }
 
-/* line 71, ../scss/style.scss */
+/* line 72, ../scss/style.scss */
+.contact {
+  font-size: 12px !important;
+  color: #666;
+}
+
+/* line 76, ../scss/style.scss */
 .project {
   width: 30%;
   height: 200px;
   background-color: #777777;
 }
 
-/* line 81, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 .project-row {
   margin-top: 50px !important;
 }
 
-/* line 87, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 #about {
   display: none;
   height: 100%;
@@ -7901,13 +7908,13 @@ body {
   font-size: 12px;
 }
 
-/* line 93, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 #portfolio {
   display: none;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-/* line 97, ../scss/style.scss */
+/* line 102, ../scss/style.scss */
 #contact {
   display: none;
   margin-top: 150px;

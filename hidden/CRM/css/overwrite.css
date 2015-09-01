@@ -1,0 +1,49 @@
+.breadcrumb {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	background-color: transparent; 
+	border-radius: 0;
+}
+.breadcrumb li a{
+	color: #52a1cf;
+	font-weight: 600;
+}
+
+.container-fluid{
+  padding: 0;
+  position: relative;
+}
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.form-block .row{
+	margin-right: -10px;
+	margin-left: -10px;
+}
+.form-block .col-xs-1, .form-block .col-sm-1, .form-block .col-md-1, .form-block .col-lg-1, .form-block .col-xs-2, .form-block .col-sm-2, .form-block .col-md-2, .form-block .col-lg-2, .form-block .col-xs-3, .form-block .col-sm-3, .form-block .col-md-3, .form-block .col-lg-3, .form-block .col-xs-4, .form-block .col-sm-4, .form-block .col-md-4, .form-block .col-lg-4, .form-block .col-xs-5, .form-block .col-sm-5, .form-block .col-md-5, .form-block .col-lg-5, .form-block .col-xs-6, .form-block .col-sm-6, .form-block .col-md-6, .form-block .col-lg-6, .form-block .col-xs-7, .form-block .col-sm-7, .form-block .col-md-7, .form-block .col-lg-7, .form-block .col-xs-8, .form-block .col-sm-8, .form-block .col-md-8, .form-block .col-lg-8, .form-block .col-xs-9, .form-block .col-sm-9, .form-block .col-md-9, .form-block .col-lg-9, .form-block .col-xs-10, .form-block .col-sm-10, .form-block .col-md-10, .form-block .col-lg-10, .form-block .col-xs-11, .form-block .col-sm-11, .form-block .col-md-11, .form-block .col-lg-11, .form-block .col-xs-12, .form-block .col-sm-12, .form-block .col-md-12, .form-block .col-lg-12 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.form-control{
+	border-radius: 2px;
+	box-shadow: none;
+}
+
+.btn {
+  border-radius: 2px;
+}
+hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.radio-inline, .checkbox-inline{
+	line-height: 20px;
+}
